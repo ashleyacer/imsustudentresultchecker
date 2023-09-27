@@ -1,0 +1,132 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+
+}
+.formimg{
+    width: 50%;
+    background-image:repeating-linear-gradient(rgba(3, 85, 3, 0.439),rgba(5, 4, 4, 0.893)),url(student.jpeg);
+    background-position:center;
+    background-size:cover;
+    position: relative;
+    
+    
+
+}
+.formimg h1{
+    font-size:80px;
+    color: #ffffff;
+    padding: 25px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.formimg p{font-size: 20px;
+        color:#ffffff;
+        padding: 20px;
+        margin-left: 40px;q
+}
+.back{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.747),rgba(255, 255, 255, 0.774)),url(OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+div.form2{
+   height: 100vh;
+    
+    
+}
+.center{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 69px;
+}
+.center a{text-decoration: none;
+}
+.form2 h2{
+    font-size: 70px;
+
+}
+.form2 p{
+    margin-top:40px;
+    margin-right:20px;
+}
+.center input[type=text] {
+    width:30%;
+    height: 25px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+}
+.center input[type=password]{
+    width:30%;
+    height: 25px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+}
+.center input[type=submit]{
+    width:70px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    background:#080;
+}
+.center input[type=submit]:hover{color: #ffffff;
+background-color: red;}
+
+
+
+@media (max-width:750px){
+    .container{display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    height:auto;
+}
+.formimg{width: 100%;
+}
+.formimg h1{font-size: 40px;}
+.formimg p{font-size: 15px;
+margin-bottom: 30px;
+position: relative;
+bottom: 30px;}
+.back{
+    width: 100%;
+    position:relative;
+
+}
+.form2 h2{font-size:38px;}
+.form2 p{font-size: 15px;
+
+}
+.center{
+    position:relative;
+    left:10%;
+    bottom:3%;
+    padding:-40px;
+    overflow-y: hidden;
+    margin-left: 24px;
+}
+.center input[type=text] {
+    width:50%;
+    height: 25px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+}
+.center input[type=password]{
+    width:50%;
+    height: 25px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+}
+*{overflow-x: hidden;}
+
+}
