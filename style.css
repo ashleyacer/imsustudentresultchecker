@@ -30,20 +30,16 @@
     margin-left: 35px;
 }
 .formimg p{font-size: 20px;
-        color:#ffffff;
+        color:yellow;
         padding: 20px;
         margin-left: 40px;q
 }
-.back{
+.form2{
     background-image:linear-gradient(rgba(255, 255, 255, 0.747),rgba(255, 255, 255, 0.774)),url(OIP.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
-}
-div.form2{
-   height: 100vh;
-    
-    
+    height:
 }
 .center{
     position: relative;
@@ -98,7 +94,7 @@ background-color: red;}
 margin-bottom: 30px;
 position: relative;
 bottom: 30px;}
-.back{
+.form2{
     width: 100%;
     position:relative;
 
